@@ -1,0 +1,16 @@
+== Microservice
+== Endpoints
+=== Speaker
+==== Get data by UUID
+===== Curl example
+include::{snippets}/microservice-controller-test/test-get-data/curl-request.adoc[]
+===== HTTP Request
+include::{snippets}/microservice-controller-test/test-get-data/http-request.adoc[]
+===== HTTP Response
+====== Success HTTP responses
+include::{snippets}/microservice-controller-test/test-get-data/http-response.adoc[]
+====== Response body
+include::{snippets}/microservice-controller-test/test-get-data/response-body.adoc[]
+====== Request body
+include::{snippets}/microservice-controller-test/test-get-data/request-body.adoc[]
+====== HATEOAS links
